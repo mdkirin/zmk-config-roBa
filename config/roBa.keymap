@@ -51,11 +51,6 @@
             key-positions = <31 32>;
         };
 
-        bootloader_lt {
-            bindings = <&bootloader>;
-            key-positions = <39 38 37>;
-        };
-
         bootloader_rt {
             bindings = <&bootloader>;
             key-positions = <40 41 42>;
@@ -159,15 +154,6 @@
             tapping-term-ms = <200>;
         };
 
-        encoder_scroll: encoder_scroll {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "ENCODER_SCROLL";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-
-            tap-ms = <20>;
-        };
-
         as_ht: autoshift_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "AUTOSHIFT_HOLD_TAP";
@@ -175,13 +161,6 @@
             tapping-term-ms = <175>;
             flavor = "tap-preferred";
             bindings = <&shifted>, <&kp>;
-        };
-        rot_kp: sensor_rotate_kp {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            #sensor-binding-cells = <2>;
-            bindings = <&kp>, <&kp>;
-            tap-ms = <50>;
-
         };
     };
     };
@@ -196,8 +175,7 @@
 &kp Z      &kp X         &kp C         &kp V           &kp B        &kp COLON           &kp SEMICOLON    &kp N        &kp M             &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 KP_ENTER  &lt 2 SPACE  &kp LEFT_SHIFT      &lt 2 BACKSPACE  &lt 1 SPACE                                        &mo 6
             >;
-
-            sensor-bindings = <&rot_kp A B>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         FUNCTION {
