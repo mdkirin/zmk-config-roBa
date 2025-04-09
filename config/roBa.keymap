@@ -197,7 +197,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 KP_ENTER  &lt 2 SPACE  &kp LEFT_SHIFT      &lt 2 BACKSPACE  &lt 1 SPACE                                        &mo 6
             >;
 
-            sensor-bindings = <&rot_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&rot_kp A B>;
         };
 
         FUNCTION {
