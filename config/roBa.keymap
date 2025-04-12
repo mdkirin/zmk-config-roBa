@@ -106,13 +106,13 @@
             key-positions = <7 8>;
         };
 
-        sel_left {
+        sel_left2 {
             bindings = <&kp LC(LS(LEFT_ARROW))>;
             key-positions = <18 19>;
             layers = <1>;
         };
 
-        sel_right {
+        sel_right2 {
             bindings = <&kp LC(LS(RIGHT_ARROW))>;
             key-positions = <19 20>;
             layers = <1>;
