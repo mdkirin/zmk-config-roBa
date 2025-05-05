@@ -231,10 +231,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                       &kp T                                                                                  &kp Y                   &kp U             &lt 5 I    &kp O    &kp P
-&kp A      &kp S         &kp D         &mt LEFT_SHIFT F            &kp G                   &kp LS(LG(S))                    &as MINUS                     &kp H                   &mt LEFT_SHIFT J  &kp K      &kp L    &lt 1 ENTER
-&kp Z      &kp X         &kp C         &kp V                       &kp B                   &kp COLON                        &kp SEMICOLON                 &kp N                   &kp M             &as COMMA  &as DOT  &as SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 BACKSPACE  &lt_to_layer_0 2 ENTER  &mt LEFT_SHIFT LANG_HANGEUL      &lt_to_layer_0 2 RIGHT_SHIFT  &lt_to_layer_0 1 SPACE                                        &mo 6
+&kp Q      &kp W         &kp E         &kp R                   &kp T                                                                                &kp Y                   &kp U             &lt 5 I    &kp O    &kp P
+&kp A      &kp S         &kp D         &mt LEFT_SHIFT F        &kp G                   &kp LS(LG(S))                    &as MINUS                   &kp H                   &mt LEFT_SHIFT J  &kp K      &kp L    &lt 1 ENTER
+&kp Z      &kp X         &kp C         &kp V                   &kp B                   &kp LEFT_PARENTHESIS             &kp RIGHT_PARENTHESIS       &kp N                   &kp M             &as COMMA  &as DOT  &as SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 ENTER  &lt_to_layer_0 2 SPACE  &mt LEFT_SHIFT LANG_HANGEUL      &lt_to_layer_0 2 BACKSPACE  &lt_to_layer_0 1 SPACE                                        &mo 6
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
