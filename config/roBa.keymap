@@ -192,8 +192,6 @@
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp U &kp B &kp U &kp L &kp A &kp R &kp SPACE &kp A &kp D &kp E &kp N &kp O &kp M &kp A &kp COMMA &kp SPACE &kp L &kp O &kp W &kp SPACE &kp G &kp R &kp A &kp D &kp E &kp SPACE &kp D &kp Y &kp S &kp P &kp L &kp A &kp S &kp I &kp A &kp SPACE &kp W &kp I &kp T &kp H &kp SPACE &kp C &kp L &kp E &kp A &kp R &kp SPACE &kp R &kp E &kp S &kp E &kp C &kp T &kp I &kp O &kp N &kp SPACE &kp M &kp A &kp R &kp G &kp I &kp N>;
             label = "TUBULARADENOMA";
-            tap-ms = <30>;
-            wait-ms = <40>;
         };
 
         HyperplasticPolyp: HyperplasticPolyp {
@@ -201,8 +199,6 @@
             #binding-cells = <0>;
             bindings = <&kp LS(H) &kp Y &kp P &kp E &kp R &kp P &kp L &kp A &kp S &kp T &kp I &kp C &kp SPACE &kp LS(P) &kp O &kp L &kp Y &kp P>;
             label = "HYPERPLASTICPOLYP";
-            tap-ms = <30>;
-            wait-ms = <40>;
         };
 
         behaviors {
