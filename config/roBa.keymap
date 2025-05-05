@@ -233,7 +233,7 @@
 &trans     &trans     &trans           &trans           &trans        &trans                       &trans          &as NUMBER_0                                            &kp PIPE
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(LS(RIGHT)) LS(LC(LEFT_ARROW))>;
+            sensor-bindings = <&inc_dec_kp LS(RIGHT) LS(LEFT_ARROW)>;
         };
 
         ARROW {
