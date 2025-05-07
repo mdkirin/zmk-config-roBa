@@ -136,6 +136,16 @@
             bindings = <&IIa>;
             key-positions = <10 31>;
         };
+
+        Ipolyp {
+            bindings = <&InflammatoryPolyp>;
+            key-positions = <9 7>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
@@ -584,7 +594,7 @@
                 <&kp LEFT_ALT>;
 
             label = "TUBULARADENOMA";
-            tap-ms = <10>;
+            tap-ms = <5>;
         };
 
         HyperplasticPolyp: HyperplasticPolyp {
@@ -701,7 +711,7 @@
                 <&kp LEFT_ALT>;
 
             label = "HYPERPLASTICPOLYP";
-            tap-ms = <10>;
+            tap-ms = <5>;
         };
 
         InflammatoryPolyp: InflammatoryPolyp {
@@ -818,7 +828,7 @@
                 <&kp LEFT_ALT>;
 
             label = "INFLAMMATORYPOLYP";
-            tap-ms = <10>;
+            tap-ms = <5>;
         };
 
         IIa: IIa {
@@ -845,7 +855,7 @@
                 <&kp LEFT_ALT>;
 
             label = "IIA";
-            tap-ms = <10>;
+            tap-ms = <5>;
         };
 
         behaviors {
