@@ -594,7 +594,6 @@
                 <&kp LEFT_ALT>;
 
             label = "TUBULARADENOMA";
-            tap-ms = <20>;
         };
 
         HyperplasticPolyp: HyperplasticPolyp {
@@ -711,7 +710,6 @@
                 <&kp LEFT_ALT>;
 
             label = "HYPERPLASTICPOLYP";
-            tap-ms = <20>;
         };
 
         InflammatoryPolyp: InflammatoryPolyp {
@@ -828,7 +826,6 @@
                 <&kp LEFT_ALT>;
 
             label = "INFLAMMATORYPOLYP";
-            tap-ms = <20>;
         };
 
         IIa: IIa {
@@ -855,7 +852,6 @@
                 <&kp LEFT_ALT>;
 
             label = "IIA";
-            tap-ms = <20>;
         };
 
         behaviors {
