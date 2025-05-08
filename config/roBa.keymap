@@ -208,7 +208,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <>;
+                <&kp N7>;
 
             label = "TUBULARADENOMA";
         };
@@ -217,7 +217,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <>;
+                <&kp N7>;
 
             label = "HYPERPLASTICPOLYP";
         };
@@ -226,7 +226,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <>;
+                <&kp N7>;
 
             label = "INFLAMMATORYPOLYP";
         };
