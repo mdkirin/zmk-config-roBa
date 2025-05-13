@@ -256,14 +256,6 @@
             label = "IIA";
         };
 
-        BT4: BT4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>, <&macro_press>, <&kp>;
-
-            label = "BT4";
-        };
-
         behaviors {
             lt_to_layer_0: lt_to_layer_0 {
                 compatible = "zmk,behavior-hold-tap";
