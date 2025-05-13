@@ -289,7 +289,7 @@
 &kp Q      &kp W         &kp E         &kp R             &kp T                                                                  &kp Y        &kp U             &lt 5 I      &kp O    &kp P
 &kp A      &kp S         &kp D         &mt LEFT_SHIFT F  &kp G        &kp LS(LG(S))                    &lt 3 MINUS              &kp H        &mt LEFT_SHIFT J  &lt 4 K      &kp L    &lt 1 ENTER
 &kp Z      &kp X         &kp C         &kp V             &kp B        &lt 6 LEFT_PARENTHESIS           &lt 6 RIGHT_PARENTHESIS  &kp N        &kp M             &lt 6 COMMA  &as DOT  &as SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 ENTER       &lt 2 SPACE  &mt LEFT_SHIFT LANG_HANGEUL      &lt 2 BACKSPACE          &lt 1 SPACE                                          &to 7
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 ENTER       &lt 2 SPACE  &mt LEFT_SHIFT LANG_HANGEUL      &lt 2 BACKSPACE          &lt 1 SPACE                                          &tog 7
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
@@ -358,7 +358,7 @@
 &kp Q             &kp W         &kp E             &kp R             &kp T                                                                  &kp Y        &kp U             &lt 5 I      &kp O    &kp P
 &kp A             &kp S         &kp D             &mt LEFT_SHIFT F  &kp G        &kp LS(LG(S))                    &lt 3 MINUS              &kp H        &mt LEFT_SHIFT J  &lt 4 K      &kp L    &lt 8 ENTER
 &kp Z             &kp X         &kp C             &kp V             &kp B        &lt 6 LEFT_PARENTHESIS           &lt 6 RIGHT_PARENTHESIS  &kp N        &kp M             &lt 6 COMMA  &as DOT  &as SLASH
-&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 8 ENTER       &lt 9 SPACE  &mt LEFT_SHIFT LANG_HANGEUL      &lt 9 BACKSPACE          &lt 8 SPACE                                          &to 0
+&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 8 ENTER       &lt 9 SPACE  &mt LEFT_SHIFT LANG_HANGEUL      &lt 9 BACKSPACE          &lt 8 SPACE                                          &tog 0
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
