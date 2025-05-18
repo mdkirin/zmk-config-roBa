@@ -288,7 +288,7 @@
             bindings = <
 &kp Q      &kp W         &kp E         &kp R             &kp T                                                                   &kp Y        &kp U             &lt 9 I       &kp O    &kp P
 &kp A      &kp S         &kp D         &mt LEFT_SHIFT F  &kp G        &kp LS(LG(S))                    &lt 3 MINUS               &kp H        &mt LEFT_SHIFT J  &lt 8 K       &kp L    &lt 2 ENTER
-&kp Z      &kp X         &kp C         &kp V             &kp B        &lt 10 LEFT_PARENTHESIS          &lt 10 RIGHT_PARENTHESIS  &kp N        &kp M             &lt 10 COMMA  &as DOT  &as SLASH
+&kp Z      &kp X         &kp C         &kp V             &kp B        &lt 10 CAPS                      &lt 10 RIGHT_PARENTHESIS  &kp N        &kp M             &lt 10 COMMA  &as DOT  &as SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 ENTER       &lt 2 SPACE  &mt LEFT_SHIFT LANG_HANGEUL      &lt 2 BACKSPACE           &lt 1 SPACE                                           &to 4
             >;
 
